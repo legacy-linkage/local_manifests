@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="CyanogenMod/android_frameworks_native" />
-    <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
     <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
     <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
     <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
 
     <project path="frameworks/native" name="Blefish/android_frameworks_native" revision="cm-11.0" />
-    <project path="hardware/libhardware_legacy" name="Blefish/android_hardware_libhardware_legacy" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="Blefish/android_hardware_qcom_audio-caf" revision="cm-11.0" />
     <project path="hardware/qcom/display-caf" name="Blefish/android_hardware_qcom_display-caf" revision="cm-11.0" />
     <project path="hardware/qcom/media-caf" name="Blefish/android_hardware_qcom_media-caf" revision="cm-11.0" />
