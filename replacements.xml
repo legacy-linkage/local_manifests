@@ -4,11 +4,7 @@
 
     <remove-project name="CyanogenMod/android_frameworks_native" />
     <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-    <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-    <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
 
     <project path="frameworks/native" name="Blefish/android_frameworks_native" revision="cm-11.0" />
     <project name="LegacyXperia/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" revision="cm-11.0" />
-    <project name="LegacyXperia/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" revision="cm-11.0" />
-    <project name="LegacyXperia/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" revision="cm-11.0" />
 </manifest>
