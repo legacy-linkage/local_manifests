@@ -6,5 +6,5 @@
     <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
 
     <project path="frameworks/native" name="Blefish/android_frameworks_native" revision="cm-11.0" />
-    <project name="LegacyXperia/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" revision="cm-11.0" />
+    <project name="Blefish/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" revision="cm-11.0" />
 </manifest>
