@@ -17,4 +17,9 @@ cherries+=(56950)
 # Advanced storage: swap primary storage for apps
 cherries+=(56951)
 
-${android}/build/tools/repopick.py -b ${cherries[@]}
+if [ -z $cherries ]
+then
+	echo "Nothing to cherry-pick!"
+else
+	${android}/build/tools/repopick.py -b ${cherries[@]}
+fi
