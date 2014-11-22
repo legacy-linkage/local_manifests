@@ -9,4 +9,8 @@
     <project name="Blefish/android_device_huawei_u8860" path="device/huawei/u8860" revision="cm-12.0" />
     <project name="Blefish/android_kernel_huawei_msm7x30" path="kernel/huawei/msm7x30" revision="cm-12.0" />
     <project name="Blefish/android_vendor_huawei" path="vendor/huawei" revision="cm-12.0" />
+
+    <project name="LegacyXperia/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" revision="cm-12.0-caf-7x30" />
+    <project name="LegacyXperia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" revision="cm-12.0-caf-legacy" />
+    <project name="LegacyXperia/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" revision="cm-12.0-caf-legacy" />
 </manifest>
