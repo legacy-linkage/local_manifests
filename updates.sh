@@ -2,6 +2,9 @@
 
 android=${PWD}
 
+# Revert "Revert "Reenable support for non-PIE executables""
+cherries+=(79136)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
