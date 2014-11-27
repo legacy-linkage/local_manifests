@@ -4,6 +4,8 @@
             fetch="https://github.com"
             review="review.msm7x30.org" />
 
+    <remove-project name="platform/hardware/akm" />
+
     <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
 
     <!-- LegacyHuawei projects -->
