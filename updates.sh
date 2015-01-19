@@ -11,9 +11,6 @@ cherries+=(81684)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(81758)
 
-# bcmdhd: workaround for driver compiled as a module
-cherries+=(82598)
-
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
