@@ -11,6 +11,9 @@ cherries+=(81684)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(81758)
 
+# lowmemorykiller: Overwrite LMK parameters for low-tier devices
+cherries+=(86327)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
