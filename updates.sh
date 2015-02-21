@@ -11,6 +11,9 @@ cherries+=(81684)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(81758)
 
+# Restart WLAN driver after receiving firmware crashed message
+cherries+=(89453)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
