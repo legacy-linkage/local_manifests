@@ -3,7 +3,7 @@
 android=${PWD}
 
 # Revert "Revert "Reenable support for non-PIE executables""
-cherries+=(79136)
+cherries+=(92943)
 
 # sensorservice: Add legacy sensors fusion.
 cherries+=(81684)
