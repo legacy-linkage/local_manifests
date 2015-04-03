@@ -14,9 +14,6 @@ cherries+=(81758)
 # Restart WLAN driver after receiving firmware crashed message
 cherries+=(89453)
 
-# audio: Make getPresentationPosition pure virtual
-cherries+=(92978)
-
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
