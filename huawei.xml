@@ -10,6 +10,7 @@
 
     <project name="Blefish/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-11.0" />
     <project name="Blefish/android_device_huawei_u8800" path="device/huawei/u8800" revision="cm-11.0" />
+    <project name="Blefish/android_device_huawei_u8800pro" path="device/huawei/u8800pro" revision="cm-11.0" />
     <project name="Blefish/android_device_huawei_u8860" path="device/huawei/u8860" revision="cm-11.0" />
     <project name="Blefish/android_kernel_huawei_msm7x30" path="kernel/huawei/msm7x30" revision="cm-11.0" />
     <project name="Blefish/android_vendor_huawei" path="vendor/huawei" revision="cm-11.0" />
