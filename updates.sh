@@ -14,6 +14,9 @@ cherries+=(81758)
 # Restart WLAN driver after receiving firmware crashed message
 cherries+=(89453)
 
+# am: Adjust min free values for low RAM devices
+cherries+=(94408)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
