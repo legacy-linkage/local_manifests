@@ -2,7 +2,7 @@
 <manifest>
     <remote name="msm7x30"
             fetch="https://github.com/msm7x30"
-            review="msm7x30.org:8000" />
+            review="review.msm7x30.org" />
 
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
     <remove-project name="CyanogenMod/android_hardware_akm" />
