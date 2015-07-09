@@ -14,9 +14,6 @@ cherries+=(81758)
 # Restart WLAN driver after receiving firmware crashed message
 cherries+=(89453)
 
-# am: Adjust min free values for low RAM devices
-cherries+=(94408)
-
 # policy: Show a simple dialog about optimizing apps
 cherries+=(101243)
 
