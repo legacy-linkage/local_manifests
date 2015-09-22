@@ -17,6 +17,9 @@ cherries+=(89453)
 # policy: Show a simple dialog about optimizing apps
 cherries+=(101243)
 
+# build: Add option to disable block-based ota
+cherries+=(102837)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
