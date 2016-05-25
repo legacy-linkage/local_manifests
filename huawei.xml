@@ -7,8 +7,6 @@
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
     <remove-project name="CyanogenMod/android_hardware_akm" />
 
-    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
-
     <!-- LegacyHuawei projects -->
     <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-12.1" />
     <project name="LegacyHuawei/android_device_huawei_u8800" path="device/huawei/u8800" revision="cm-12.1" />
