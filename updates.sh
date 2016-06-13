@@ -14,6 +14,9 @@ cherries+=(131627)
 # Barrier only messages shouldn't prevent the idle handlers from running
 cherries+=(131628)
 
+# SystemServer: Do not start Atlas Service on lowram devices.
+cherries+=(148998)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
