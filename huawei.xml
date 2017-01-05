@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+    <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
 
-    <!-- CyanogenMod projects with additional changes -->
-    <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+    <!-- LineageOS projects with additional changes -->
+    <remove-project name="LineageOS/android_hardware_qcom_audio-caf" />
     <project name="LegacyXperia/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" />
 
-    <!-- CyanogenMod projects -->
-    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-11.0" />
+    <!-- LineageOS projects -->
+    <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" revision="cm-11.0" />
 
     <!-- LegacyHuawei projects -->
     <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-11.0" />
