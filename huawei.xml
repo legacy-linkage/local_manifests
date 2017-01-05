@@ -4,26 +4,25 @@
             fetch="https://github.com"
             review="review.msm7x30.org" />
 
-    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-    <remove-project name="CyanogenMod/android_hardware_akm" />
+    <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
 
     <!-- LegacyHuawei projects -->
-    <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-13.0" />
-    <project name="LegacyHuawei/android_device_huawei_u8800" path="device/huawei/u8800" revision="cm-13.0" />
-    <project name="LegacyHuawei/android_device_huawei_u8800pro" path="device/huawei/u8800pro" revision="cm-13.0" />
-    <project name="LegacyHuawei/android_device_huawei_u8860" path="device/huawei/u8860" revision="cm-13.0" />
-    <project name="LegacyHuawei/android_kernel_huawei_msm7x30" path="kernel/huawei/msm7x30" revision="cm-13.0" />
-    <project name="LegacyHuawei/android_vendor_huawei" path="vendor/huawei" revision="cm-13.0" />
+    <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" />
+    <project name="LegacyHuawei/android_device_huawei_u8800" path="device/huawei/u8800" />
+    <project name="LegacyHuawei/android_device_huawei_u8800pro" path="device/huawei/u8800pro" />
+    <project name="LegacyHuawei/android_device_huawei_u8860" path="device/huawei/u8860" />
+    <project name="LegacyHuawei/android_kernel_huawei_msm7x30" path="kernel/huawei/msm7x30" />
+    <project name="LegacyHuawei/android_vendor_huawei" path="vendor/huawei" />
 
     <!-- msm7x30 projects -->
-    <project name="msm7x30/android_device_qcom_msm7x30-common" path="device/qcom/msm7x30-common" remote="msm7x30" revision="cm-13.0" />
+    <project name="msm7x30/android_device_qcom_msm7x30-common" path="device/qcom/msm7x30-common" remote="msm7x30" />
 
-    <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-13.0-caf-7x30" />
-    <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-13.0-caf-7x30" />
-    <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-13.0-caf-7x30" />
+    <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-14.1-caf-7x30" />
+    <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-14.1-caf-7x30" />
+    <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-14.1-caf-7x30" />
 
-    <!-- CyanogenMod projects -->
-    <project name="CyanogenMod/android_external_busybox" path="external/busybox" />
-    <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
-    <project name="CyanogenMod/android_external_stlport" path="external/stlport" />
+    <!-- LineageOS projects -->
+    <project name="LineageOS/android_external_busybox" path="external/busybox" revision="cm-13.0" />
+    <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
+    <project name="LineageOS/android_external_stlport" path="external/stlport" />
 </manifest>

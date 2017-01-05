@@ -2,24 +2,21 @@
 
 android=${PWD}
 
+# selinux: add selinux_status_getenforce to header
+cherries+=(60713)
+
+# init: don't skip starting a service with no domain if permissive
+cherries+=(142846)
+
 # Revert "Revert "Reenable support for non-PIE executables""
-cherries+=(117733)
+cherries+=(1175)
 
 # arm: Allow disabling PIE for dynamically linked executables
-cherries+=(123032)
-
-# policy: Show a simple dialog about optimizing apps
-cherries+=(131627)
-
-# Barrier only messages shouldn't prevent the idle handlers from running
-cherries+=(131628)
-
-# SystemServer: Do not start Atlas Service on lowram devices.
-cherries+=(148998)
+cherries+=(2643)
 
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
 else
-	${android}/build/tools/repopick.py -f -b ${cherries[@]}
+	${android}/vendor/cm/build/tools/repopick.py -f -b ${cherries[@]}
 fi
