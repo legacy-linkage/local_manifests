@@ -4,7 +4,15 @@
             fetch="https://github.com"
             review="review.msm7x30.org" />
 
+    <remote name="omnirom"
+            fetch="https://github.com"
+            review="gerrit.omnirom.org" />
+
+    <remove-project name="LineageOS/android_bootable_recovery" />
     <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
+
+    <!-- OmniROM projects -->
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" />
 
     <!-- LegacyHuawei projects -->
     <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" />
