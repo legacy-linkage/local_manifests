@@ -14,6 +14,9 @@ cherries+=(1175)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(2643)
 
+# bt: Add LEGACY_BRCM_HCI flag
+cherries+=(142721)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
