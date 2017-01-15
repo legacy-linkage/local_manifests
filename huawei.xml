@@ -10,6 +10,7 @@
 
     <remove-project name="LineageOS/android_bootable_recovery" />
     <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
+    <remove-project name="platform/hardware/akm" />
 
     <!-- OmniROM projects -->
     <project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" />
