@@ -8,14 +8,14 @@ cherries+=(60713)
 # init: don't skip starting a service with no domain if permissive
 cherries+=(142846)
 
-# Revert "Revert "Reenable support for non-PIE executables""
-cherries+=(1175)
-
-# arm: Allow disabling PIE for dynamically linked executables
-cherries+=(2643)
-
 # bt: Add LEGACY_BRCM_HCI flag
 cherries+=(142721)
+
+# Add LOCAL_NO_FPIE for target executables
+cherries+=(159624)
+
+# DO NOT MERGE: Allow disabling PIE for cameraserver
+cherries+=(159627)
 
 if [ -z $cherries ]
 then
