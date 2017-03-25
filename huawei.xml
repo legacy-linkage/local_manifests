@@ -16,7 +16,7 @@
     <project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" />
 
     <!-- LegacyHuawei projects -->
-    <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" />
+    <project name="LegacyHuawei/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-14.1-44" />
     <project name="LegacyHuawei/android_device_huawei_u8800" path="device/huawei/u8800" />
     <project name="LegacyHuawei/android_device_huawei_u8800pro" path="device/huawei/u8800pro" />
     <project name="LegacyHuawei/android_device_huawei_u8860" path="device/huawei/u8860" />
