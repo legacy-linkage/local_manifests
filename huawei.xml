@@ -9,7 +9,6 @@
             review="gerrit.omnirom.org" />
 
     <remove-project name="LineageOS/android_bootable_recovery" />
-    <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
     <remove-project name="platform/hardware/akm" />
 
     <!-- OmniROM projects -->
